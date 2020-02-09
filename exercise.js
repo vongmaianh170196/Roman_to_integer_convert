@@ -21,7 +21,6 @@ function convertCharToValue(c){
     }
 }
 //Check if the input string is a valid Roman numerals
-//The rules for checking validation is based on this site http://sierra.nmsu.edu/morandi/coursematerials/RomanNumerals.html?fbclid=IwAR2lkP-_rfWOwmpdNjy3V2LmDqpfNpAcoWMNpKbThkzIF9v79r5aLfKiphk
 function validate(str){
     let isValid = true;
     let strArr = str.split("");
